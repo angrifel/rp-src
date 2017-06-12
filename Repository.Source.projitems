@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>950bece5-b21b-4c42-b232-937430a03f90</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Repository</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)IRepositoryGetAllPaged.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IRepositoryGetById.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IRepositoryGetAll.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RepositoryOutcomeAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RepositoryAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RepositoryOutcome.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sort.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SortItem.cs" />
+  </ItemGroup>
+</Project>
